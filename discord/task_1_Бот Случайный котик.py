@@ -2,7 +2,7 @@ import discord
 import requests
 import json
 
-TOKEN = "OTU3NjUzODUzNDI2MzE1MzQ0.YkB6pw.P2RgoifCvF592nxwSWbhIDuBayU"
+TOKEN = "TOKEN"
 
 
 class YLBotClient(discord.Client):
