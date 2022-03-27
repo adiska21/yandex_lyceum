@@ -1,9 +1,7 @@
 import discord
 import asyncio
-import requests
-import json
 
-TOKEN = "OTU3NjUzODUzNDI2MzE1MzQ0.YkB6pw.O4OTaiLOBV9WvPfVexGAPyrC-vI"
+TOKEN = "TOKEN"
 
 
 class YLBotClient(discord.Client):
@@ -30,8 +28,6 @@ class YLBotClient(discord.Client):
             await message.channel.send("не правильный формат ввода\n\n"
                                        "правильно:\n```set_timer{команда} in {кол-во часов} hour"
                                        " and {кол-во минут} minutes```")
-
-
 
 
 client = YLBotClient()
